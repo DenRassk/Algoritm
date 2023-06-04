@@ -12,9 +12,9 @@ public class Main {
         myLinkedList.add(97);
         System.out.println("Выводим список:  " + myLinkedList);
         System.out.println("Количество элементов (размер) в списке = " + myLinkedList.size());
-        find = 4;
+        find = 15;
         System.out.println("Проверяем, есть ли число " + find + " в списке? " + myLinkedList.contains(find));
-        find = 78;
+        find = 9;
         System.out.println("Проверяем, есть ли число " + find + " в списке? " + myLinkedList.contains(find));
 
     }

@@ -138,9 +138,8 @@ public class MyLinkedList {
     */
     public boolean contains(int value) {
         Node current = head;
-        while (current.next != null) {
+        while (current != null) {
             if (current.value == value) {
-
                 return true;
             }
             current = current.next;
